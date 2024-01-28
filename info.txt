@@ -32,5 +32,19 @@ Clustering - No output or dependent variable so we cluster or group the data bas
            - used in Customer Segmentation for Marketing or Market Analysis
 
 Dimentionality Reduction - convert or lower the dimensions of the data - grouping algo 
-                         - like PCA 
-                         (Principle Compomnent Analysis)          
+                         - like PCA (Principle Compomnent Analysis) 
+
+Decision Tree - Both Classification and Regression
+
+ADABoost , Random Forest , Gradient Boost , XG Boost, Naive Bayes, KNN
+
+
+Clustering --
+K means clustering 
+Hierarical
+DBscan 
+KNN
+PCA 
+LDA
+
+SVM 
