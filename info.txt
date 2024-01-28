@@ -1,0 +1,36 @@
+AI - application doing things without human intervention
+    eg NEtflix recommender algo, Amazon related search algo
+
+ML - subset of AI , provides stats tools to analyze the data and visualize the data to do predictions and forecasting.
+    statistics
+
+DL - subset of ML (like how human brain learns) multi layer neural networks
+
+DS  - does everything learns ML,DL and implments them to create AI
+
+
+
+ML - Supervised - Regression
+                - Classification
+
+   - Unsupervised - Clustering (Dimentionality Reduction)
+
+
+E.G - Supervised ML
+    Independent Feature - usually the input 
+    Dependent Feature - output from the model
+
+Regression -  output will be a continous variable
+Classification - True/false type or a fixed number of categories as the output
+               - Binary Classification - only 2 categories as output
+
+
+Unsupervised - Clustering , Dimentionality Reduction
+
+Clustering - No output or dependent variable so we cluster or group the data based on similarities
+           - Each cluster defines some property of the data grouped in
+           - used in Customer Segmentation for Marketing or Market Analysis
+
+Dimentionality Reduction - convert or lower the dimensions of the data - grouping algo 
+                         - like PCA 
+                         (Principle Compomnent Analysis)          
