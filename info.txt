@@ -45,6 +45,11 @@ Hierarical
 DBscan 
 KNN
 PCA 
+
+
+started learning using the CampusX ML playlist
+this will teach me to stay consistent and learn and break my bad learning cycle developed during the last sem
+
 LDA
 
 SVM 
