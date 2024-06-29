@@ -20,7 +20,7 @@ E.G - Supervised ML
     Independent Feature - usually the input 
     Dependent Feature - output from the model
 
-Regression -  output will be a continous variable
+Regression -  output will be a continuous variable
 Classification - True/false type or a fixed number of categories as the output
                - Binary Classification - only 2 categories as output
 
@@ -31,12 +31,12 @@ Clustering - No output or dependent variable so we cluster or group the data bas
            - Each cluster defines some property of the data grouped in
            - used in Customer Segmentation for Marketing or Market Analysis
 
-Dimentionality Reduction - convert or lower the dimensions of the data - grouping algo 
+Dimensionality Reduction - convert or lower the dimensions of the data - grouping algo 
                          - like PCA (Principle Compomnent Analysis) 
 
 Decision Tree - Both Classification and Regression
 
-ADABoost , Random Forest , Gradient Boost , XG Boost, Naive Bayes, KNN
+ADABoost , Random Forest , Gradient Boost , XG Boost, Naive Bayes, KNN,Catboost
 
 
 Clustering --
@@ -53,3 +53,5 @@ this will teach me to stay consistent and learn and break my bad learning cycle 
 LDA
 
 SVM 
+
+

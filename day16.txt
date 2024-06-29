@@ -1,0 +1,11 @@
+fetching data from json and sql files
+
+json 
+read_json - either provide page url with json data or file directory path
+
+mysql
+download xampp to create a sql database - run apache web server and mysql database server
+import .sql file in xampp to create a database
+create a connector object using mysql.connector 
+params- host,user,pass,database
+fetch data using read_sql_query - pass query and connector object

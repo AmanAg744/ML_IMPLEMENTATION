@@ -1,0 +1,26 @@
+import pandas,request, beautifulsoup
+bs4 web scraping library
+check url pages and look at the data u want to scrap
+requests.get(url).text
+#problem response 403 - server rejected request-dont have permission to crawl the web pages or scraped by webscrapers
+actlike a browser is sending request 
+paste a header code to show like req coming from a browser
+then 
+
+requests.get(url,header).text - u get the html css code of the webpage
+store the webpage code
+parse it and extract info
+
+using beautiful soup to scrap data easily
+soup = beautifulsoup(webpage,'lxml')
+
+html parser - lxml
+
+print(soup.prettify()) - improves the html structure for the viewer
+
+soup.find_all('h1)[0].text - all the data in the h1 tag of the page
+similarly find 'h2' tags - may get more than one, use len function to find the number
+
+use .text to extract the text in the html tag
+and multiple output  can be stored as a list.
+

@@ -1,0 +1,21 @@
+create a dataset using api 
+link to tmdb movie - https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGdmZ2U1Umlkdnpxd2lKYkY2Q2xKVnpmQ3NKZ3xBQ3Jtc0tsSzNqTFFNbGhfLVFaNTd4MEI5eFF6Sk53Y084T2dPcGZuNGQ3aXN2TjRGMGJxdlE2YTROTGdmLTR2U1oydnJLRWdGdktoVUZDdmh5NS1HODdiRHAyeENXbmVTbVY1aTY4akVVMXIxQXpVekdyMENfbw&q=https%3A%2F%2Fdevelopers.themoviedb.org%2F&v=roTZJaxjnJc 
+
+
+first see all the neccessary columns needed from the api
+ then view at the json in the web page
+
+make a database
+pandas and requests library in python
+requests lib to create https requests
+requests.get(parse the json link) - responds with json string and store the response in a variable
+view the response using response.json()
+
+convert the results into a dataframe
+
+pd.DataFrame(respond.json()['result'])
+this will give the data DataFrame
+ now use [['a','b',....]] after the code to extract only the required column and save it as a df variable
+create a loop for all the webpages and append to the data DataFrame
+
+
