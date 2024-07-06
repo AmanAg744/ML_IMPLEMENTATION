@@ -24,3 +24,11 @@ similarly find 'h2' tags - may get more than one, use len function to find the n
 use .text to extract the text in the html tag
 and multiple output  can be stored as a list.
 
+instead extracting all the one type of details for all companies , rather extract all the company divs
+
+here 
+company = soup.find_all('div',class='company-content-wrapper')
+
+run a loop and with each iteration with a variable pointing a company div extract the details using i.find(whatever tag and class)
+append to a global list
+
